@@ -17,3 +17,10 @@ while True:
             system("cls")
          else:
             system("clear")
+            print("Your Time finished...")
+         # playsound(r'path/Audio.mp3')
+   elif "n" in choice.lower():
+      print('''Exiting...
+      bye!''')
+      break
+   
